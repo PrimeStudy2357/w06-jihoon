@@ -2,12 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = 1;
+
+  const b = a + 1;
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello <br /> World!
+          <br />
+          {b}
+          asdjfklasdjasdfjklasdfjkl
         </p>
         <a
           className="App-link"
